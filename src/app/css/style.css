@@ -1,0 +1,170 @@
+body {
+	background-color: #F8F8F8;
+	color: #5A5A5A;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;	
+	padding: none;
+	margin: none;
+}
+
+h1 {
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+h3 {
+	font-weight: 400;
+	font-family: 'Roboto';
+}
+
+nav {
+	background-color: #008CA5;
+	max-width: 120px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a, a:visited {
+	color: #fff;
+	width: 100%;
+	padding: 10px 0 10px 10px;
+	background-color: #008CA5;
+	font-size: 0.7em;
+	letter-spacing: 0.02em;
+	transition: .15s ease-in-out;
+	display: block;
+	text-decoration: none !important;
+}
+
+a:hover {
+	color: #E4F0F2;
+	background-color: #006F83;
+}
+
+
+a:active {
+	color: #00262D;
+}
+
+
+main {
+	max-width: 640px;
+	min-height: 300px;
+	margin: 20px auto 0;
+	border: 1px solid #5A5A5A;
+	text-align: center;
+}
+
+
+.home-wrapper p {
+	padding: 20px 40px 0;
+}
+
+h1 {
+	padding-top: 20px;
+}
+
+.widget-row {
+	margin: 0 auto;
+}
+
+.widget-wrapper {
+	margin: 20px auto 40px;
+}
+
+.single-widget {
+	display: inline-block;
+	margin: 3px;
+	min-width: 200px;
+}
+
+.single-widget li {
+	margin: 0 auto;
+	color: #fff;
+	padding: 10px 0;
+	background-color: #A5DDEB;
+}
+
+.single-widget li:last-child {
+	margin: 0 auto;
+	border-bottom: none;
+}
+
+.single-widget li:hover {
+	background-color: #008CA5;
+}
+
+.user-wrapper {
+	max-width: 300px;
+	background-color: #A5DDEB;
+	margin: 20px auto 40px;
+}
+
+.user-name {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 10px 0;
+	color: #fff;
+	cursor: pointer;
+	transition: .15s ease-in-out;
+}
+
+.user-name:first-child {
+	margin: 0 auto;
+}
+
+.user-name:hover {
+	background-color: #008CA5;
+}
+
+
+footer {
+	max-width: 640px;
+	margin: 10px auto 0;
+}
+
+
+@media (max-width: 960px) {
+
+	main {
+		border: none;
+		border-top: 1px solid #5A5A5A;
+		border-bottom: 1px solid #5A5A5A;
+	}
+
+	.single-widget {
+		display: block;
+		max-width: 300px;
+		margin: 6px auto;
+	}
+
+	nav {
+		background-color: #008CA5;
+		margin: 20px auto 0;
+		max-width: 640px;
+		display: block;
+	}
+
+
+	nav ul li {
+		display: inline-block;
+	}
+
+	nav ul li a {
+		padding: 10px 20px;
+		border-right: 1px solid #fff;
+	}
+}
